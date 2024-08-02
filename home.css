@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem);
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #171616;
+}
+.navbar {
+  list-style: none;
+  padding-top: 30px;
+  margin: 0;
+  background-color: #171616;
+}
+.navbar-item a {
+  text-decoration: none;
+  font-size: 17px;
+}
+.home {
+  color: cyan;
+}
+.navbar-item a:hover {
+  text-decoration: overline;
+  text-decoration-color: aqua;
+  color: cyan;
+}
+
+.navbar-item {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  gap: 25px;
+  margin-top: -25px;
+}
+
+.nav-brand h4 {
+  margin-left: -10px;
+  color: cyan;
+}
+.content {
+  position: relative;
+  margin-top: 90px;
+}
+.content h5,
+h4,
+p {
+  margin-bottom: 50px;
+  color: #fff;
+}
+.icons2 {
+  font-size: 30px;
+  gap: 25px;
+  display: inline-flex;
+}
+.icons2 a:hover {
+  color: cyan;
+}
+.image {
+  width: 69%;
+  margin-left: 20px;
+  object-fit: contain;
+  mix-blend-mode: normal;
+}
+.row1 {
+  display: flex;
+}
+
+/* Body starts here */
+
+.container-fluid1 {
+  background: #171616;
+  height: 100%;
+}
+
+/* ABOUT ME CSS */
+
+#vertical-line {
+  height: 90px;
+  border-left: 3px solid cyan;
+  position: absolute;
+  margin: 0px 98ch 50px;
+}
+/* .about {
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 90px;
+} */
+.row2 {
+  margin-top: 150px;
+  display: flex;
+}
+.pgh {
+  margin-top: 150px;
+  line-height: 30px;
+}
+.btn {
+  border: 2px solid cyan;
+}
+.row2 a {
+  padding: 16px 15px;
+  text-decoration: none;
+  border: 2px solid cyan;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  color: #fff;
+  position: absolute;
+  left: 75%;
+}
+.row2 a:hover {
+  background-color: cyan;
+  color: black;
+  box-shadow: 1px 1px 2px cyan, 2px 0 10px cyan, 0 0 4px cyan;
+}
+
+/* MY SKILLS CSS */
+
+.row3 {
+  margin-top: 250px;
+  display: flex;
+}
+#vertical-line2 {
+  height: 90px;
+  border-left: 3px solid cyan;
+  position: absolute;
+  margin: 0px 6ch 50px;
+}
+.pgh2 {
+  margin-top: 150px;
+  line-height: 30px;
+  position: absolute;
+}
+span {
+  border: 1px solid cyan;
+  border-style: groove;
+  padding: 0px 10px 7px;
+  border-radius: 7px;
+  margin: 9px 19px;
+}
+.skills {
+  margin-left: 69ch;
+  list-style: none;
+  margin-top: 5ch;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.outer {
+  background-color: rgb(89, 89, 201);
+  width: 80%;
+  border-radius: 15px;
+}
+
+/* .skill {
+  background-color: rgb(62, 156, 156);
+  color: white;
+margin-left: 100px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.html {
+  width: 93%;
+}
+.css {
+  width: 95%;
+}
+.javascript {
+  width: 89%;
+}
+.php {
+  width: 85%;
+}
+.sql {
+  width: 88%;
+} */
+
+/* MY CONTACTS */
+
+.row4 {
+  margin-top: 89ch;
+  display: inline-flex;
+}
+#vertical-line3 {
+  height: 90px;
+  border-left: 3px solid cyan;
+  position: absolute;
+  margin: 0px 102ch 50px;
+}
+form {
+  margin: 180px 35ch;
+}
+.contacts input {
+  margin-bottom: 30px;
+  background-color: #171616;
+  color: #fff;
+}
+label {
+  color: #fff;
+}
+#text_area {
+  background-color: #171616;
+  color: #fff;
+  margin-left: 0px;
+}
+.input-section1 {
+  margin-left: -35px;
+}
+.btn {
+  padding: 10px 38px 16px;
+  margin: 33px 8ch;
+  border-radius: 10px;
+  background-color: #171616;
+}
+.row4 a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn:hover {
+  background-color: cyan;
+  color: black;
+  box-shadow: 1px 1px 2px cyan, 2px 0 10px cyan, 0 0 4px cyan;
+}
+.row5 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.fill {
+  margin-left: 50ch;
+  margin-top: -20ch;
+  position: absolute;
+}
